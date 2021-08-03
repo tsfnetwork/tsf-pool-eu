@@ -2,7 +2,7 @@
 
 module.exports = function(environment) {
   var ENV = {
-    modulePrefix: 'tsf-pool',
+    modulePrefix: 'open-social-pool',
     environment: environment,
     rootURL: '/',
     locationType: 'hash',
@@ -17,13 +17,13 @@ module.exports = function(environment) {
       // API host and port
       ApiUrl: '//eu.tsfpool.com:8080/',
       PoolName: 'TSF Pool',
-      CompanyName: 'Libertasgh.com',
+      CompanyName: 'Libertas-GH',
       // HTTP mining endpoint
-      HttpHost: 'https://mine-perkle.esprezzo.io',
+      HttpHost: 'http://eu.tsfpool.com',
       HttpPort: 8888,
 
       // Stratum mining endpoint
-      StratumHost: 'perkle-pool.esprezzo.io',
+      StratumHost: 'eu.tsfpool.com',
       StratumPort: 8008,
 
       // Fee and payout details

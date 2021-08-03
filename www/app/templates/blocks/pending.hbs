@@ -12,7 +12,8 @@
     <tbody>
       {{#each model.candidates as |block|}}
       <tr>
-        <td><a href="{{t "links.blockExplorerLink_block"}}{{block.height}}" rel="nofollow" target="_blank">{{format-number block.height}}</a></td>
+        <td><a href="https://explorer.tsf-platform.com/#/block/{{block.height}}" rel="nofollow"
+            target="_blank">{{format-number block.height}}</a></td>
         <td>{{format-date-locale block.timestamp}}</td>
         <td>
           {{#if block.isLucky}}

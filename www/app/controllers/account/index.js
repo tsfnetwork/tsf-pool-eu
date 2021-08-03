@@ -74,8 +74,11 @@ export default Ember.Controller.extend({
                         enabled: true,
                         itemStyle:
                           {
-                            color:"#ccc"
+                            color:"#fff"
                           },
+                          itemHoverStyle: {
+                            color: '#fff'
+                        }
                     },
                     tooltip: {
                         formatter: function() {

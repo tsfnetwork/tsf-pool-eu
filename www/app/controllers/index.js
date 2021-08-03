@@ -82,7 +82,7 @@ export default Ember.Controller.extend({
                         enabled: false
                     },
                     series: [{
-                        color: "#15BD27",
+                        color: "#FFD700",
                         name: "Hashrate",
                         data: function() {
                             var e, a = [];
